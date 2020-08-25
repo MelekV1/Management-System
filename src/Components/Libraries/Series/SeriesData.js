@@ -1,0 +1,67 @@
+const SeriesData=[
+  {
+    id:1,
+    posterUrl:"/SeriePosters/silliconvalley.jpg",
+    rate:8.5,
+    title:"Sillicon Valley",
+    date:"2014-2019",
+    description:"Follows the struggle of Richard Hendricks, a Silicon Valley engineer trying to build his own company called Pied Piper.",
+  },
+  {
+    id:2,
+    posterUrl:"/SeriePosters/dark.jpg",
+    rate:8.8,
+    title:"Dark",
+    date:"2017-2020",
+    description:"A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
+  },
+  {
+    id:3,
+    posterUrl:"/SeriePosters/La_Casa_de_Papel.jpg",
+    rate:8.4,
+    title:"La casa de papel ",
+    date:"2017-",
+    description:"An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
+  },
+  {
+    id:4,
+    posterUrl:"/SeriePosters/mrrobot.jpg",
+    rate:8.5,
+    title:"Mr Robot",
+    date:"2015-2019",
+    description:"Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies try to take down the corrupt corporation he works for.",
+  },
+  {
+    id:5,
+    posterUrl:"/SeriePosters/sexeducation.jpg",
+    rate:8.3,
+    title:"Sex Education",
+    date:"2019-",
+    description:"A teenage boy with a sex therapist mother teams up with a high school classmate to set up an underground sex therapy clinic at school.",
+  },
+  {
+    id:6,
+    posterUrl:"/SeriePosters/theoffice.jpg",
+    rate:8.9,
+    title:"The Office",
+    date:"2005-2013",
+    description:"A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+  },
+  {
+    id:7,
+    posterUrl:"/SeriePosters/freaksandgeeks.jpg",
+    rate:8.8,
+    title:"Freaks & Geeks",
+    date:"1999-2000",
+    description:"A high school mathlete starts hanging out with a group of burnouts while her younger brother navigates his freshman year.",
+  },
+  {
+    id:8,
+    posterUrl:"/SeriePosters/thebigbangtheory.jpg",
+    rate:8.1,
+    title:"The Big Bang Theory",
+    date:"2007-2019",
+    description:"A woman who moves into an apartment across the hall from two brilliant but socially awkward physicists shows them how little they know about life outside of the laboratory.",
+  }
+]
+export default SeriesData

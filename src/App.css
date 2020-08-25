@@ -1,0 +1,81 @@
+.App-link p {
+  color:#011638;
+}
+
+.App-link {
+  text-decoration: none;
+}
+.menu li{
+  margin:90px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar {
+  height: 100%; /*100% of the viewport heigth*/
+  background:#007bae;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content {
+  padding: 2rem;
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h2{
+  color:#0e3fc3;
+}
+/**Lbraries css**/
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+.Mecard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.contact-btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-btn:hover {
+  background-color: #555;
+}
+
+.Mecontainer {
+  padding: 0 16px;
+}
+
+.Mecontainer::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
